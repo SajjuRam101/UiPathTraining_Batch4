@@ -1,0 +1,67 @@
+﻿{
+  "Metadata": {
+    "Id": "956c9001-6bef-4f31-8f40-c0fcadc9e8a3",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "Task 8",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Text Field",
+        "tableView": true,
+        "key": "textField",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Password",
+        "tableView": false,
+        "key": "password",
+        "type": "password",
+        "input": true,
+        "protected": true
+      },
+      {
+        "label": "Checkbox",
+        "tableView": false,
+        "key": "checkbox",
+        "type": "checkbox",
+        "input": true
+      },
+      {
+        "label": "Select",
+        "widget": "choicesjs",
+        "tableView": true,
+        "data": {
+          "values": [
+            {
+              "label": "true",
+              "value": "true"
+            },
+            {
+              "label": "gadf",
+              "value": "gadf"
+            }
+          ]
+        },
+        "key": "select",
+        "type": "select",
+        "input": true
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}
