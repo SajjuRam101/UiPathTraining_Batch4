@@ -1,0 +1,39 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "newIntAge&Sequence_1",
+        "strAge&Sequence_1",
+        "intAge&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Data Activities.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "columnName&SequenceX_1",
+        "column&SequenceX_1",
+        "rowIndex&SequenceX_1",
+        "FilteredEmpData&Sequence_1",
+        "empDataText&SequenceX_1",
+        "EmpData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
