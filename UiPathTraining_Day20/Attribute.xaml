@@ -1,0 +1,130 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Attribute" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="536,1118" sap2010:WorkflowViewState.IdRef="Attribute_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Attribute" sap:VirtualizedContainerService.HintSize="546,1053.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Change Language Settings" sap:VirtualizedContainerService.HintSize="484,942.6666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d63d02e6-9b1c-4ed4-92a9-cc6daeb420b2" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,723.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="fetchedData" />
+              <Variable x:TypeArguments="x:String" Name="textData" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="id" DisplayName="Get Attribute 'INPUT twotabsearchtextb…'" sap:VirtualizedContainerService.HintSize="388,211.33333333333334" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_1" Result="[fetchedData]" ScopeIdentifier="d63d02e6-9b1c-4ed4-92a9-cc6daeb420b2" Version="V3">
+              <uix:NGetAttributeGeneric.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.amazon.com/" CvElementArea="529, 130, 719, 64" CvTextArea="549, 148, 158, 21" CvTextArgument="Search Amazon" CvType="InputBox" DesignTimeRectangle="539, 201, 709, 57" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT twotabsearchtextb…'" FullSelectorArgument="&lt;webctrl id='twotabsearchtextbox' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='twotabsearchtextbox' tag='INPUT' type='text' class='nav-input nav-progressive-attribute' aaname='Search Amazon' /&gt;" Guid="9e0b0296-cb7c-4611-8be2-d2eb1d279d36" ImageBase64="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" InformativeScreenshot="c6af0ef6a698111c632c3ce756f758ad.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.com. Spend less. Smile more.' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NGetAttributeGeneric.Target>
+            </uix:NGetAttributeGeneric>
+            <uix:NGetText DisplayName="Get Text 'Select the'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="d63d02e6-9b1c-4ed4-92a9-cc6daeb420b2" TextString="[textData]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.amazon.com/customer-preferences/edit?ie=UTF8&amp;preferencesReturnUrl=%2F&amp;ref_=topnav_lang" CvType="AnyWordGroup" DesignTimeRectangle="171, 358, 731, 26" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Select the'" FullSelectorArgument="&lt;webctrl id='icp-language-subheading' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='icp-language-subheading' tag='SPAN' type='' class='' /&gt;" Guid="e1defff2-d309-441a-aa06-c2b3457a7ae7" ImageBase64="" InformativeScreenshot="bfdc5fca90473a5cc098a1dd9d68ee32.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Change Language Settings' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NHighlight Color="Gold" DisplayName="Highlight 'English - EN'" HighlightTime="5" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NHighlight_1" ScopeIdentifier="d63d02e6-9b1c-4ed4-92a9-cc6daeb420b2" Version="V3">
+              <uix:NHighlight.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.amazon.com/customer-preferences/edit?ie=UTF8&amp;preferencesReturnUrl=%2F&amp;ref_=topnav_lang" CvTextArgument="English - EN" CvType="Text" DesignTimeRectangle="209, 418, 115, 26" DesignTimeScaleFactor="1.5" FriendlyName="'English - EN'" FullSelectorArgument="&lt;webctrl aaname='         English -                        ' parentid='icp-language-settings' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='         English -                        ' parentid='icp-language-settings' tag='SPAN' type='' class='' check:innerText='English - EN' /&gt;" Guid="345954d4-50c2-497b-8442-f492e2c1d915" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHcAAAAeCAYAAAAWwoEYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAASmSURBVGhD7Zo9a9tcFMf7DYK/RLyFQqCFQtvJ3lxDwIZCCBlSyGDSIc6U0OFJ6BCHDrEXp3Ro0inOUNQh2B0e7KXYhoAzFLcQUIaAA8+goWBBhv9z32Rf2VeOLSuqMPrDoeTq+Oro/HTum/oIoWZWIdwZVgh3hhXCnWGFcGdYIdwZVgh3hhVouEbzBPnDAvLnumiZUkYDx7S/wwo86jHQssHVz+mDj7bylXD2QZ2zFcxFIpjbb4gWrvanJOYjUSSKLdEypm5KWKb9RQ5QF02+6qqizKnNpBe5x+P8l2hRyOpTUQA2uPV9+uCjLdcUzj5IDddE9Z2IZ7MCQ7SOpb8Nt3nQy6OjSc/a55HGsVNRWX0OFACVEu7udwOGobbunXD2QU6VC0NHvdaAPhFZoqDA/Ye8lIrcMvsjfIlsxbZaUk8lk8L1szpHyRGuWwUF7pjPw3kkkUpFyb9RrH29FVckPQhca3HCxnoD+vePyK4m8SRK+og+RWrzBC1VZd3pKO9vIPGMB/zk9RaOaiRoMXccN/s/coJrLbRkX6rubw25jIiB9v1qBdliFR1TONjgThCzV3IFdwWnlxVkWYxbKP8nLlp6ELhWol6ksfyKgCLJSSwlmfHkEiNDSUe4M5kt5KkvvbYYF/5xLJC/FxYfs/bls/7b6QTXapd9cVlAjPoySHsE/g4yLBaSnBvh04NL7j1uzF7KLVwSf+frG7KIjOD5+wa64jrTpHAzn6qo1gat1a8AKilR2bMWDHkuvjpBil17A03Kv/4lzfqfXx+YP4xfOFrl93YLl8f+EvlL0aCSi5g9lQXi7UdFfqto3cgJtsMl2cMpy1EcuQvJb1K4apMqgMo2xA2qgdzQb0jVvqBtSeXKz7q3P3DHjdljWSAczDYSEdnhElmjU6xAsin0sJU7ZqIMMm84+k8Pt1vbY8PWXDSJTLGC9uDcROURXOO3Kj/DlTekqSqXykTrQ5z1kfosxr5J4U40546bqJH+08Ol0r/tILXI+2ELqrUDaD+lFZJHcK1YB20wniGNAKHSMFyiPw3sshFQtAcCrmFV7t6DweUy0WmWkFt7yiuZzlFNURFBqdxp4BJ1/91hzzZPD3ECAZcsCI6XaJt6XvQObl/dH3t4Tn9vnWR5BNe1PIJLXi+UN/lWcvvdlmOfPsKVYMUOUJXmROOyhGyM39tLuLgWMa5rfHszM3CJes8ibFy4CzG+91PZ0YVwdpUospxfF/tccR++v4wjpoBLk8EXSWlsH/Y/WgzDvYW2uYHtYgllOkQ2G6jXNORe87c7ey7m3aDA7e3xFSZ9DBkJl0j/zLeWzMaFO8p6Ve06UQba3wrsZCixtILsYQl1wsi6t70adWgZfrhBIeXEizUM10B1P80OQ6w4uT3GMklWb9MfFLijTIJ0H1y2vRRFcS/cv6n6ex7k7g/RIMs07acyTrozYRi3aJPKbd/6+5EjiAoGXJNUDVveb0BT7U9DuZK/cH9qyJ9V0LqWPnFdV5Ff5UNv7IM0hIaaWv7CvSgo5kVqUSS2K/bz5lBTy/9h2SQLqmYFp0X+X0iOaCXft/kP5UqBWVCF8l4h3JkV8D/Uz433OoxmSAAAAABJRU5ErkJggg==" InformativeScreenshot="7192a4dfa672b546932865d86050fffe.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Change Language Settings' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NHighlight.Target>
+            </uix:NHighlight>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAF5SURBVDhPlVM9S8NQFBW0+QOO2h+gU9vdSbuLNP0HprtDfoBIhYKgWFyFLLpUC10EjbvawcFC4qJDm4CDllQdHHq9JzdfbYLUA4e8d98959738t4cESnMA2afOSuQC40Cg31EkrBtm3Rdp4qqklqtkmEYwUoKDRi4MhZ0u12az+VoYYowzIALg6GMBVqt5gs2ymWyLCuaL+fzQcYEhikDx3H8LkzTpMt2299C2EUG0gbYf6FUikRJZiBtEFaECbo5bjb/ZxAm79Xr/nxb06KY53l+LIG0QaFYjAQ4yOQfQTdTCAy+HJkycIBLfOIQ4AtRhbe1zmajd5fGFt+J+x1hZNBZJfqwEPgbt1sifNwlOoM0NBjcEJ3z8I4XR3E3KXwOiF5aUqy1iEjiDF4vxAS8WpMqvUOiJ2bviKtvSlXkoSDWA4P4Kr89SCJMkMwcB1/qrPATupa8H/4bYHCVGxhNAC0+n8Yd9LliNvzHhOd8wvxGZEYglzWk/AJk0E1AkKBI3AAAAABJRU5ErkJggg==" InformativeScreenshot="d3ab13aaef91614910a5deef50b05ee6.jpg" Selector="&lt;html app='chrome.exe' title='Change Language Settings' /&gt;" Title="Amazon.com. Spend less. Smile more." Url="https://www.amazon.com/customer-preferences/edit?ie=UTF8&amp;preferencesReturnUrl=%2F&amp;ref_=topnav_lang" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
