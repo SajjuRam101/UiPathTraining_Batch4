@@ -27,6 +27,20 @@
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
+    },
+    {
+      "Path": "ExtractingCode.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "retry&Flowchart_1",
+        "folderAvailable&Flowchart_1",
+        "folderToExtract&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_DownloadedZipFile"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
     }
   ]
 }
