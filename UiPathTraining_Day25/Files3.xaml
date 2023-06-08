@@ -1,0 +1,138 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Files3" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="790,1166.6666666666667" sap2010:WorkflowViewState.IdRef="Files3_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Files3" sap:VirtualizedContainerService.HintSize="642,1102" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: SALESFORCE March2023 7:30Am Batch (2023-06-05 07:55 GMT+5:30) - Google Drive" sap:VirtualizedContainerService.HintSize="580,991.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="3bba6cba-7b9d-48b0-bb4c-e58694d5cb00" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="546,772" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="si:FileInfo" Name="downloadedFile" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:GetLastDownloadedFile FileResource="{x:Null}" Timeout="{x:Null}" DisplayName="Wait for Download" DownloadFolder="C:\Users\UiPath Training\Downloads" File="[downloadedFile]" sap:VirtualizedContainerService.HintSize="484,532" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_1" IgnoreFiles="tmp">
+              <ui:GetLastDownloadedFile.Body>
+                <ActivityAction>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,270" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3bba6cba-7b9d-48b0-bb4c-e58694d5cb00" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://drive.google.com/file/d/1Tl-Yoe3q0IuGa08FU6knsq_f33QPbIS7/view" CvType="Icon" DesignTimeRectangle="1611, 221, 36, 36" DesignTimeScaleFactor="1.5" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='18' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='ndfHFb-c4YZDc-Bz112c ndfHFb-c4YZDc-C7uZwb-LgbsSe-Bz112c ndfHFb-c4YZDc-nupQLb-Bz112c' tag='DIV' aaname='' /&gt;" Guid="b2e49fa4-9911-4424-9134-57bd3a342378" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAD5SURBVFhH7dWBDYIwEIVhV+oczMEcrMEanYM5OgfmES856klLX1Wid8kflZLyBSXeQgjrlXMgmwPZHMj2P8B5nlcZvLfOacmBbA5kcyDb7wKnadp9PgLm556pCRhj3CB4lWOvgMuyPB0702ngOI7bBWUEaQEFJzMMw26vmpruoMZggMyBOa71a27+DebIo/n4b1CqQTI4RAHREZLFIRqILGQPHCoCcXHJWpc0soSr3RMVgXqsdR0uWHPn9Fjruq7A2vRY6zoHWumx1nVFYErpsdV7xrqmrgjUT2fv6fIU4w8eG/W8k9irBoeKwG/nQDYHsjmQ7eLAsN4B5WeVNko/DCEAAAAASUVORK5CYII=" InformativeScreenshot="c046bd0e95524b3f3d20735410f35610.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='SALESFORCE March2023 7:30Am Batch (2023-06-05 07:55 GMT+5:30) - Google Drive' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvElementArea="1754, 208, 57, 57" CvTextArea="1770, 225, 21, 25" CvTextArgument="R" CvType="Icon" DesignTimeRectangle="1759, 215, 48, 48" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='IMG' type='' class='gb_k gbii' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQoSURBVGhD7ZjfSxRRFMf7A+ohigoqknoSoto2NajoB1H0UFREkEE99RQUvSQIvQhSD9FD0S9Bih4qCqWXoKgUf9VqlllaGv5IbCGt1F3X3+ue5jsy2+zsmZ17986umzTwgWXnzLnnO/fec86deR6Ph+YS/wUlYqdnLZ3yrqGiTSuoJGcJleUupGc5C6gid74OfuM/3IMNbPEM5ytZlAVt9ayjc94supOzmCq1oJMBz8IHfHFjyJC0ILxZvGW8eS7IZIAv+FSZtaQEFXhXuSrECnxjDG5sJ6QE7d+YrbS0ZMFYGJOLxQ5hQdjAqZwVOzAmxuZi4hAShA3LDZZOEAMXmxVHQZkgxkBEVEJBmGrO8WzitPxsBWEzzsaecQIxJUoUtoLSmc1kQWxczIAVhBrAOcok7OpUnCBU6UxcalYQI9dRxAlC68E5yEQQqzX+GEFoDv+F2TFArNaGNkaQSs1pOZ9P4/1+CoeC8QwHaHLwJ418+0p9L8qo8eQ2qt6+lPUji7U2xQhSyWythSf04HFNT4zTVChgIkjT46NEkYh+fyowQD33rlD1jmWsLxmsGS8qCBuMe0CUqCAt6N4H18l3ZEMMDfmbqaukmCaHfumiwmMj1FZ8mvUlizk5RAWpdgVmQV03i1gb0FJwnCLaDOIabm9mbWQxdw9RQarZTVQQGG77oAvC3uLuy2LOdlFBOOdzxqLICBqor9AFTU+MsfdlQexxgvDxgjMWRVRQ1ZZFFOr8rAsa7/OzNrIg9jhB+CLDGYsiIqhm90rquFpIkclJioTD1PvwBmsnC2KPE6RaUM2CAp/q6fujW395fJt+PL2v/x8eDWlrbZoGfK/o9YFs1pcsiD11ggSuwcYqajiWR5V5aqvCgBXk2pLTrjF/Nw2+q44h8NGn75mINjsovP0vy6l2jztdPbvk3EwKPXcvU+3erBjq9q3WimuePju4IuEp6i69xPqShU0K6UrbvsPrNbuALmqku521kYVN2+ksrMEvTbog9HTcfVnYwpqu1gcMNdXpgtCwcvdlYVsfN5tTR0Hva2cEudQpsM0pcOX4ICDod91zXZCW8ujNQbUXaXt8ACoHPBlB/vLSGUHa1XntAmsjSsIDnsoRvPnsIQq0vKVQRyu1XzzD2hjUH/VSsKVR7+n6K55Qza7lrJ0TiDXhERyoZrt0Ys5uBnGCsMFU26B0gBjNycAgThCYUx8aDVQyXqqxZjYztoLm3Md6oNo9pAJzV8CRUBBQqU1uY605HI6CQCaIEhEDhAQBTPVs7CmM6bTMzAgLAtiM6cx+GCtRAuCQEmSAGpDK2YJvuzrjRFKCAKo0Wg83hcEXfHIdgChJCzJAc4gNq7IU8Sx8WBvNZFAWZAZvFhsYbxnnfHy8wBcZvHmA3/gP92ADW5XZ4HBVUCYwxwR56A+u1qktPzKAlQAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </ui:GetLastDownloadedFile.Body>
+            </ui:GetLastDownloadedFile>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="484,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;File Downlaoded : &quot; + downloadedFile.Name]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANWSURBVFhH7ZZdSFNhGMcPdKRRQt5IU0cNXVGmJO4sVwoeP2qFRbJNvPAiQXClEUmWVIZTp0EGRjdRokZKZxolZF801y6EuvCicob0pRcLNYetpjTdlLf3xXdzO+edbipd+Ycfu9nz/J6z55z3jNpIuNmuP5Qk1itZEtE1B2X4a+sf+UPNnsR7x8xQBJbj7ZNtL4CFEuOy9QnbXixijJqvkHlJYwZRjNA2JwJPH43ox6XrEzmnrYJygEhuO+4mySW1aWDk+RYXHgDM920qwuVri6K7QAzF094BENImVjBA1d0E79V7scFViHCb1Udu1LT7yxEpD06CmNol+W4DA6ZeifgDAI+ZrsFtVpdUo1rJl3vZdfuwb4D7HeIFgXwRl8sikuJ24Udh1LwjyRFyTj0bZ0gHmTf2gzkTHWwA4O6L4HC78KIwaotIYn+SW/Os355t/UwSB2CiM3Db0LKvuyCS6dLYSFIePVAwIBAKGYA3JI3brxwFp60nyPi4UrsLZOjqCEIBcBUluP3yUXL5UtScJxMA74/ruIRCeyZJeYzDXyEKlwQPY1RzJCGPcbQmXELBxhIo8B1CQTHTvqGJYTgtS5AJkHdpTuESX9AzT5QG4pm1bCa/sFgLS8Pm7/kyAgO4JCDo1IMCG09IoheXBIbh1CUEmQB0OOESQeD5X0gQCjHRKlyymJSe/Ci4eztJGACn6cAlQQMF/QIhHzM9HPBYop0ShYG40jrVElwSNO7XEQxRysdEs7iEomT6Vr2srs2eoO8AROpbxxQ3nz7ObphpD4XOuupeZ6V07M/5eCCgIt7tvLRzxHExoRjrKUpcas2L0Q2CYOwoHwaw8RwEfa7I0bqp36OqLDCZowjKxBEmCeth9BYaiob5Yi/M1Z8hy73cKm1ZIIkR9hyFCZuXEnP6g4okl537QhSshMrgWBg8kU8awBN49X6Bwpf+8lidFaTX/CIKQqGywiQYwJ7L3ME6YSRlQzIo9ngH2HthlNg4HN5odf4DOBxsyvLvg1jdxyYkjzszBDINzrB3z6ew+vvf8VwlHoApx5rgiS77FBmjs/anXp74QWq4GlpKmm2TOQceAZYN7T8BGiLL4LySbZjpzWqcsayF7IbpnsJrI2dDlm/k/4ai/gGbiTe9SZifzAAAAABJRU5ErkJggg==" InformativeScreenshot="8658fa56ee251f03e4294b01f8686f62.jpg" Selector="&lt;html app='msedge.exe' title='SALESFORCE March2023 7:30Am Batch (2023-06-05 07:55 GMT+5:30) - Google Drive' /&gt;" Title="SALESFORCE March2023 7:30Am Batch (2023-06-05 07:55 GMT+5:30) - Google Drive" Url="https://drive.google.com/file/d/1Tl-Yoe3q0IuGa08FU6knsq_f33QPbIS7/view" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
