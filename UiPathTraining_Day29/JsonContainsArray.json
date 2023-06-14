@@ -1,0 +1,24 @@
+{
+	"School Name" : "SRKR Elementry School",
+	"Address" : "Hyderabad",
+	"Total Students" : 360,
+	"Total Staff" : 11,
+	"Staff Details" : [
+		{
+			"Staff Name" : "Shiva",
+			"Subject" : "Maths",
+			"Class" : 6
+		},
+		{
+			"Staff Name" : "Ram",
+			"Subject" : "English",
+			"Class" : 5
+		},
+		{
+			"Staff Name" : "Bala",
+			"Subject" : "Telugu",
+			"Class" : 4
+		}
+		
+	]
+}

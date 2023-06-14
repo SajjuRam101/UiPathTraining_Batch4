@@ -1,0 +1,13 @@
+{
+"Name" : "Shiva",
+"Age" : 30,
+"Address" : "Schaumburg, Illinois",
+"Gender" : "Male"
+"Job Details" : 
+{
+	"Job Type" : "Private Employee",
+	"Job Category" : "Software",
+	"Job" : "Software Developer",
+	"Office" : "Organon"
+}
+}
