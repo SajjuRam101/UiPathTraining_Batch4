@@ -1,0 +1,17 @@
+<Employee>
+<Name>Shiva</Name>
+<Age>30</Age>
+<JobData>
+	<JobType>Software</JobType>
+	<JobTitle>RPA Developer</JobTitle>
+</JobData>
+
+<JobCate>
+	<Cat>ITSupport</Cat>
+	<Cat>Admin</Cat>
+	<Cat>Development</Cat>
+	<Cat>Network</Cat>
+</JobCate>
+		
+</Employee>
+
