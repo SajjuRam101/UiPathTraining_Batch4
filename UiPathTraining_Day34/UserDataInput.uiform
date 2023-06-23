@@ -1,0 +1,132 @@
+﻿{
+  "Metadata": {
+    "Id": "b55683ce-d949-49fa-b66a-68e4ed842f5d",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "UserDataInput",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "First Name",
+        "labelPosition": "left-left",
+        "placeholder": "Enter your first Name",
+        "tableView": true,
+        "validate": {
+          "required": true,
+          "minLength": 3
+        },
+        "errors": {
+          "invalid_regex": "{{ regex }} should be text only"
+        },
+        "key": "firstName",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Last Name",
+        "labelPosition": "left-left",
+        "placeholder": "Enter your last name",
+        "tableView": true,
+        "validate": {
+          "required": true,
+          "minLength": 1
+        },
+        "key": "lastName",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Email",
+        "labelPosition": "left-left",
+        "tableView": true,
+        "validate": {
+          "required": true
+        },
+        "key": "email",
+        "type": "email",
+        "input": true
+      },
+      {
+        "label": "Do you wish to enter your phone number",
+        "optionsLabelPosition": "right",
+        "inline": false,
+        "tableView": false,
+        "values": [
+          {
+            "label": "Yes",
+            "value": "yes",
+            "shortcut": ""
+          },
+          {
+            "label": "No",
+            "value": "no",
+            "shortcut": ""
+          }
+        ],
+        "validate": {
+          "required": true
+        },
+        "key": "doYouWishToEnterYourPhoneNumber",
+        "type": "radio",
+        "input": true
+      },
+      {
+        "label": "Phone Number",
+        "inputMask": "(999) 99 - 9999",
+        "tableView": true,
+        "validate": {
+          "required": true
+        },
+        "key": "phoneNumber",
+        "conditional": {
+          "show": true,
+          "when": "doYouWishToEnterYourPhoneNumber",
+          "eq": "yes"
+        },
+        "type": "phoneNumber",
+        "input": true
+      },
+      {
+        "label": "Date of Birth",
+        "hideInputLabels": false,
+        "inputsLabelPosition": "top",
+        "tableView": false,
+        "fields": {
+          "day": {
+            "type": "select",
+            "hide": false
+          },
+          "month": {
+            "hide": false
+          },
+          "year": {
+            "type": "select",
+            "hide": false,
+            "required": true,
+            "minYear": 1950,
+            "maxYear": 2023
+          }
+        },
+        "key": "dateOfBirth",
+        "type": "day",
+        "input": true,
+        "maxYear": 2023,
+        "minYear": 1950
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}
