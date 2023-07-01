@@ -12,6 +12,8 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "transItem&Sequence_1",
+        "operation&Sequence_5",
         "Num2&Sequence_1",
         "Num1&Sequence_1",
         "result&Sequence_1"
@@ -38,6 +40,16 @@
       "Path": "Update Asset.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ReqQueueData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransItem&Sequence_1"
+      ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null

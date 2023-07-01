@@ -1,7 +1,7 @@
 {
-  "name": "UiPathTraining_Day37",
-  "projectId": "3b4812e4-c19a-426c-8229-7bf4d374c782",
-  "description": "This BOT will open the calculator and do the math",
+  "name": "UiPathTraining_Day38",
+  "projectId": "56e05413-d167-430e-a371-a1b4f72ce5d8",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.21.0-preview]",
@@ -13,8 +13,8 @@
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "23.6.0.0",
-  "projectVersion": "1.0.4",
+  "studioVersion": "23.6.1.0",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -50,7 +50,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "74435a2f-97dc-4c25-99a0-4002581d5b3b",
+      "uniqueId": "d8a1ee68-aeea-4d97-a0d1-3007ae9ca739",
       "input": [],
       "output": []
     }
